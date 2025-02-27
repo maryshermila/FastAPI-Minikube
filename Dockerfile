@@ -17,5 +17,5 @@ RUN chmod +x docker-entrypoint.sh
 # Expose port 8000
 EXPOSE 8000
 
-# Run the entrypoint script
+# Run the entrypoint script 
 ENTRYPOINT ["./docker-entrypoint.sh"]
